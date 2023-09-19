@@ -1,0 +1,11 @@
+local gamelist = {
+    [994732206]  = "https://raw.githubusercontent.com/nomed-rin/RoyxPC/main/bf",
+    [1451439645]  = "https://raw.githubusercontent.com/zegalexy/uniquehub/main/KingLegacyMobile"
+}
+local ep = "https://raw.githubusercontent.com/nomed-rin/RoyxPC/main/all_map"
+local checkgame = gamelist[game.gameId]
+if gamelist[game.gameId] then 
+    loadstring(game:HttpGet(checkgame))()
+else 
+   loadstring(game:HttpGet(ep))()
+end
