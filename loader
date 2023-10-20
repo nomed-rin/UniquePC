@@ -1,7 +1,7 @@
 local gamelist = {
     [994732206]  = "https://raw.githubusercontent.com/nomed-rin/RoyxPC/main/bf",
     [1451439645]  = "https://raw.githubusercontent.com/zegalexy/uniquehub/main/KingLegacyMobile",
-     [3183403065] = "" -- AA
+     [3183403065] = "https://raw.githubusercontent.com/nomed-rin/RoyxPC/main/aa" -- AA
 }
 local ep = "https://raw.githubusercontent.com/nomed-rin/RoyxPC/main/all_map"
 local checkgame = gamelist[game.gameId]
